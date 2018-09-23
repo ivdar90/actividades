@@ -1,14 +1,17 @@
-var teclas = { UP: 38, DOWN: 40, LEFT: 37, RIGHT: 39 };
-
-console.log(teclas);
+var teclas = {
+  UP: 38,
+  DOWN: 40,
+  LEFT: 37,
+  RIGHT: 39
+};
 
 document.addEventListener("keyup", dibujarTeclado);
-var cuadrito = docuemt.getElementById("area_de_dibujo");
+var cuadrito = document.getElementById("area_de_dibujo");
 var papel = cuadrito.getContext("2d");
 var x = 150;
 var y = 150;
 
-dibujarLinea("red", 100, 100, 200, 200, papel);
+dibujarLinea("green", x-1, y-1, x+1, y+1, papel);
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 {
@@ -23,32 +26,25 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 
 function dibujarTeclado(evento)
 {
-  var color1 ="blue";
+  var colorcito = "#green";
   var movimiento = 10;
-  switch (evento.keyCode)
+  switch(evento.keyCode)
   {
     case teclas.UP:
-dibujarLinea(color1, x, y, x, y - movimiento, papel );
-y = y - movimiento;
-     console.log("arriba");
-     break;
-     case teclas.DOWN:
- dibujarLinea(color1, x, y, x, y + movimiento, papel );
- y = y + movimiento;
-      console.log("abajo");
-      break;
-      case teclas.RIGHT:
-  dibujarLinea(color1, x, y, x, y + movimiento, papel );
-  y = y + movimiento;
-       console.log("derecha");
-       break;
-      case teclas.LEFT:
-  dibujarLinea(color1, x, y, x, y - movimiento, papel );
-  y = y - movimiento;
-       console.log("izquierda");
-        break;
-    default:
-    console.log("otra tecla");
+      dibujarLinea(colorcito, x, y, x, y - movimiento, papel);
+      y = y - movimiento;
+    break;
+    case teclas.DOWN:
+      dibujarLinea(colorcito, x, y, x, y + movimiento, papel);
+      y = y + movimiento;
+    break;
+    case teclas.LEFT:
+      dibujarLinea(colorcito, x, y, x - movimiento, y, papel);
+      x = x - movimiento;
+    break;
+    case teclas.RIGHT:
+      dibujarLinea(colorcito, x, y, x + movimiento, y, papel);
+      x = x + movimiento;
     break;
   }
 }
