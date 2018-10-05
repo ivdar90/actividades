@@ -1,0 +1,62 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+4
+num1
+1
+0
+4
+num2
+1
+0
+4
+1
+18
+'digite 2 numeros'
+5
+1
+10
+num1, num2
+7
+0
+1
+17
+num1>0 and num2>0
+7
+0
+1
+17
+num1<0 and num2<0
+7
+0
+1
+6
+num1>0
+4
+1
+33
+'el numero 2 es mayor a 0 ', num2
+13
+4
+1
+39
+'solo en numero 1 es mayor a 0 ' , num1
+13
+13
+4
+1
+47
+'los 2 numeros son menores a 0 ', num1  , num2 
+13
+13
+4
+1
+48
+' los 2 numeros son mayores a 0 ', num1 ,  num2 
+13
+1

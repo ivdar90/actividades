@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+a
+1
+0
+1
+b
+1
+0
+1
+c
+1
+0
+4
+1
+23
+'ingrese el valor de a'
+5
+1
+1
+a
+4
+1
+23
+'ingrese el valor de b'
+5
+1
+1
+b
+4
+1
+23
+'ingrese el valor de c'
+5
+1
+1
+c
+6
+1
+1
+d
+9
+b*b-4*a*c
+7
+0
+1
+3
+d>0
+4
+1
+36
+'la ecuacion no tiene solucion real'
+13
+6
+2
+2
+r1
+16
+(-b+sqrt(d))/2*a
+2
+r2
+16
+(-b-sqrt(d))/2*a
+4
+1
+42
+'respuesta1 es ',r1 , 'respuesta 2 es ',r2
+13
+1

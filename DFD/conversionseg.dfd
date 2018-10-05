@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+6
+1
+8
+segundos
+1
+0
+4
+1
+30
+'digite un tiempo en segundos'
+5
+1
+8
+segundos
+12
+1
+6
+tiempo
+1
+8
+segundos
+1
+2
+1
+6
+tiempo
+1
+8
+segundos
+0
+6
+3
+5
+horas
+13
+segundos/3600
+8
+segundos
+17
+segundos mod 3600
+7
+minutos
+11
+segundos/60
+6
+1
+8
+segundos
+15
+segundos mod 60
+4
+1
+57
+'hora: ',horas,';minutos: ',minutos,';segundos:',segundos
+3
